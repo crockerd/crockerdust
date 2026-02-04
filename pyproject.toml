@@ -3,21 +3,21 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mypackage"
+name = "crockerdust"
 version = "0.1.0"
-description = "Describe your package in one line"
+description = "Python code to make GEMS models"
 authors = [
-    { name = "YourName", email = "yourname@example.com" }
+    { name = "Dasha Crocker", email = "crockerd@umich.edu" }
 ]
 readme = "README.md"
-license = { text = "CC-BY-NC" } # adjust if you use a different license
+license = { text = "" } # adjust if you use a different license
 requires-python = ">=3.8"           # set the minimum Python version you support
 
 # -------------------------------------------------
 # Copy the packages you would otherwise put in requirements.txt 
 dependencies = [
     "numpy",
-    "astropy"
+    "astropy", "newdust", "gastronomy"
 ]
 
 # -------------------------------------------------
