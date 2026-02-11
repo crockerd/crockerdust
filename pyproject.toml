@@ -15,10 +15,7 @@ requires-python = ">=3.8"           # set the minimum Python version you support
 
 # -------------------------------------------------
 # Copy the packages you would otherwise put in requirements.txt 
-dependencies = [
-    "numpy",
-    "astropy", "newdust", "gastronomy"
-]
+dependencies = ["numpy", "astropy"]
 
 # -------------------------------------------------
 # Optional: Development‑only dependencies (e.g., testing, linting)
@@ -28,4 +25,4 @@ dev = ["pytest>=7.0"]
 # -------------------------------------------------
 # Tell setuptools where the source lives
 [tool.setuptools.packages.find]
-where = ["mypackage"]       # where the main source code lives
+where = ["."]       # where the main source code lives
