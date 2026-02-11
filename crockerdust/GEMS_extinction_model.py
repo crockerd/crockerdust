@@ -9,7 +9,7 @@ import astropy.units as u
 import astropy.constants as c
 import newdust
 
-from cmGEMS import CmGEMS, CmGEMS_arr
+from .cmGEMS import CmGEMS, CmGEMS_arr
 
 
 #simple effective medium theory function (f_Fei=1)
